@@ -12,10 +12,12 @@ class Quiz3Activity : AppCompatActivity() {
 
         val button6 = findViewById<Button>(R.id.button6)
         button6.setOnClickListener {
+            Dados.Ambiente = 1
             resposta5()
         }
         val button7 = findViewById<Button>(R.id.button7)
         button7.setOnClickListener {
+            Dados.Ambiente = 2
             resposta6()
         }
     }

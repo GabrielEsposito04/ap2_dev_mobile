@@ -12,10 +12,12 @@ class Quiz2Activity : AppCompatActivity() {
 
         val button4 = findViewById<Button>(R.id.button4)
         button4.setOnClickListener {
+            Dados.Bebida = 1
            resposta3()
         }
         val button5 = findViewById<Button>(R.id.button5)
         button5.setOnClickListener {
+            Dados.Bebida = 2
             resposta4()
         }
     }
